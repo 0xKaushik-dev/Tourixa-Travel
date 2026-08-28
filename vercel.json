@@ -8,7 +8,11 @@
       "headers": [
         {
           "key": "Content-Type",
-          "value": "text/javascript; charset=utf-8"
+          "value": "application/javascript; charset=utf-8"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
         },
         {
           "key": "Cache-Control",
@@ -31,7 +35,7 @@
       "handle": "filesystem"
     },
     {
-      "src": "/.*",
+      "src": "/(.*)",
       "dest": "/index.html"
     }
   ]
