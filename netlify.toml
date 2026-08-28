@@ -12,22 +12,12 @@
     Content-Type = "application/javascript; charset=utf-8"
 
 [[headers]]
-  for = "/*/*.mjs"
+  for = "/assets/*"
   [headers.values]
-    Content-Type = "application/javascript; charset=utf-8"
+    Access-Control-Allow-Origin = "*"
 
 [[headers]]
-  for = "/*/*/*.mjs"
-  [headers.values]
-    Content-Type = "application/javascript; charset=utf-8"
-
-[[headers]]
-  for = "/*/*/*/*.mjs"
-  [headers.values]
-    Content-Type = "application/javascript; charset=utf-8"
-
-[[headers]]
-  for = "/*/*/*/*/*.mjs"
+  for = "/assets/sites/*/*.mjs"
   [headers.values]
     Content-Type = "application/javascript; charset=utf-8"
 
