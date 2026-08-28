@@ -1,0 +1,8 @@
+node_modules
+.system_generated
+.gemini
+*.log
+backup_orig
+tourixa_content.txt
+*.tmp
+*.py

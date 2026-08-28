@@ -1,0 +1,15 @@
+{
+  "name": "tourixa-travel",
+  "version": "1.0.0",
+  "description": "Tourixa Travel — Tour Packages & Taxi Rental in Bhubaneswar, Puri & Across India",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "node server.js",
+    "deploy": "npx vercel --prod"
+  },
+  "keywords": ["tourixa", "travel", "framer", "website"],
+  "author": "",
+  "license": "ISC"
+}
